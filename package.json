@@ -16,7 +16,7 @@
     "library"
   ],
   "author": "Heverton Castro <hevertonwebdev@gmail.com> (http://www.hevertoncastro.com.br/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hevertoncastro/js-tdd-course/issues"
   },
