@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>01 - Const in JS</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+  </body>
+  <script>
+    const secretNumber = 28;
+
+    const hev = {
+      name: 'Heverton',
+      age: 53
+    }
+
+    console.log(hev);
+
+    Object.freeze(hev);
+
+    hev.age = 27;
+
+    console.log(hev);
+  </script>
+</html>
