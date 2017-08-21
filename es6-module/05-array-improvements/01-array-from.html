@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>01 - Array from</title>
+</head>
+<body>
+  <ul id="list">
+    <li>Heverton</li>
+    <li>Anderson</li>
+    <li>Cesar</li>
+  </ul>
+
+</body>
+
+<script>
+  // const text = 'Heverton';
+  // console.log(Array.from(text));
+  const list = document.querySelectorAll('#list li');
+  const listArray = Array.from(list);
+
+  console.log(list, listArray);
+
+  const names = listArray.map((name) => name.textContent);
+
+  console.log(names);
+</script>
+</html>
